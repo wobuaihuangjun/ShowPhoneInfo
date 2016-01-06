@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * Created by huangzj on 2016/1/6.
  */
-public class CpuInfoUtil {
+public class CpuUtil {
 
 
     /**

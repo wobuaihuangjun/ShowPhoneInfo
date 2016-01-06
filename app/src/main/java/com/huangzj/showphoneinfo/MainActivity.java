@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.huangzj.showphoneinfo.util.CpuInfoUtil;
+import com.huangzj.showphoneinfo.util.CpuUtil;
 
 
 public class MainActivity extends Activity {
@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 
     private void setCupInfo() {
         TextView cupText = (TextView) findViewById(R.id.cpu_info);
-        cupText.setText(CpuInfoUtil.getCpuInfo());
+        cupText.setText(CpuUtil.getCpuInfo());
     }
 
 }
